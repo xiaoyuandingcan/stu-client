@@ -1,2 +1,2 @@
-stu-client
+stu-client 1
 ==========
