@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yimi.campusorder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.yimi.campusorder.LoadingAnim"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yimi.campusorder.MainActivity" >
+        </activity>
+        <activity android:name="com.yimi.campusorder.home.HomeActivity" >
+        </activity>
+        <activity android:name="com.yimi.campusorder.search.SearchActivity" >
+        </activity>
+        <activity android:name="com.yimi.campusorder.shopCart.ShopCartActivity" >
+        </activity>
+        <activity android:name="com.yimi.campusorder.mine.MineActivity" >
+        </activity>
+        <activity android:name="com.yimi.campusorder.setting.SettingActivity" >
+        </activity>
+    </application>
+
+</manifest>
